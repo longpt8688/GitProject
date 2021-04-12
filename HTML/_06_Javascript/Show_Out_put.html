@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Arl</title>
+</head>
+<body>
+    <button type="button" onclick="Showme1();">Click Me 01</button>
+    <div id="showmearlet">
+        <button type="button" onclick="Showme2();">Click Me 02</button>
+    </div>
+    <button type="button" onclick="Showme3();">Click Me 03</button>
+    <br>
+    <button type="button" onclick="Showme4();">Click Me 04</button>
+</body>
+</html>
+<script>
+    function Showme1() {
+        alert('XIN CHAO!');
+    }
+    function Showme2() {
+        document.getElementById("showmearlet").innerHTML = 'XIN CHAO BUTTON 02';
+    }
+    function Showme3() {
+        document.write('XIN CHAO BUTTON 03');
+    }
+    function Showme4() {
+        console.log('XIN CHAO BUTTON 04!');
+    }
+</script>
